@@ -4,6 +4,7 @@ import requests
 from app.extenstions import scheduler, redis
 from flask import current_app as app
 
+# TODO move this into services folder
 
 @scheduler.task(trigger="interval", id="pop_messages_from_redis", seconds=10, max_instances=1)
 def pop_messages_from_redis():
