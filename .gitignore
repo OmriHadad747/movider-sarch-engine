@@ -1,0 +1,14 @@
+# __pycache__
+__pycache__/
+
+# environment variables
+.env
+
+# test coverage
+.coverage
+
+# vscode
+.vscode
+
+# virtual environment
+venv
